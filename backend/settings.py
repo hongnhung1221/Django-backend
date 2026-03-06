@@ -165,5 +165,5 @@ APPEND_SLASH = False
 
 CSRF_TRUSTED_ORIGINS = [
     "https://django-backend-3oer.onrender.com",
-    "https://animestore-flax.vercel.app", 
+    "https://animestore-eta.vercel.app", 
 ]

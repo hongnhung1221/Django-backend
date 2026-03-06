@@ -15,7 +15,7 @@ products = [
     {
         '_id': '2',
         'name': 'iPhone 11 Pro 256GB Memory',
-        'image': '/static/images/phone.jpg',
+        'image': '/static/images/phone.webp',
         'description':
         'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
         'brand': 'Apple',
@@ -28,7 +28,7 @@ products = [
     {
         '_id': '3',
         'name': 'Cannon EOS 80D DSLR Camera',
-        'image': '/static/images/camera.jpg',
+        'image': '/static/images/camera.webp',
         'description':
         'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
         'brand': 'Cannon',
@@ -41,7 +41,7 @@ products = [
     {
         '_id': '4',
         'name': 'Sony Playstation 4 Pro White Version',
-        'image': '/static/images/playstation.jpg',
+        'image': '/static/images/playstation.webp',
         'description':
         'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
         'brand': 'Sony',
