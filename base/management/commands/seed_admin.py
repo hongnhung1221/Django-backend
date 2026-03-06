@@ -5,7 +5,7 @@ class Command(BaseCommand):
     help = 'Tu dong tao tai khoan Admin'
 
     def handle(self, *args, **options):
-        username = 'nhung'
+        username = 'ad'
         email = 'admin@gmail.com'
         password = '887675nh'
         
