@@ -8,7 +8,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         username = 'ad'
-        email = 'ad4@gmail.com'
+        email = 'ad5@gmail.com'
         password = '887675nh'
         
         if not User.objects.filter(username=username).exists():
