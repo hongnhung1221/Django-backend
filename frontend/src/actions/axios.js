@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://animestore-7b7f.onrender.com",
+  baseURL: "https://django-backend-3oer.onrender.com",
 });
 
 export default instance;

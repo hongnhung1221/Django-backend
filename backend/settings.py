@@ -164,6 +164,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 APPEND_SLASH = False
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://animestore-7b7f.onrender.com",
+    "https://django-backend-3oer.onrender.com",
     "https://animestore-flax.vercel.app", 
 ]
