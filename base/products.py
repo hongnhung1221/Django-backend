@@ -2,7 +2,7 @@ products = [
     {
         '_id': '1',
         'name': 'Airpods Wireless Bluetooth Headphones',
-        'image': '/images/airpods.jpg',
+        'image': '/static/images/airpods.jpg',
         'description':
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
         'brand': 'Apple',
@@ -15,7 +15,7 @@ products = [
     {
         '_id': '2',
         'name': 'iPhone 11 Pro 256GB Memory',
-        'image': '/images/phone.jpg',
+        'image': '/static/images/phone.jpg',
         'description':
         'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
         'brand': 'Apple',
@@ -28,7 +28,7 @@ products = [
     {
         '_id': '3',
         'name': 'Cannon EOS 80D DSLR Camera',
-        'image': '/images/camera.jpg',
+        'image': '/static/images/camera.jpg',
         'description':
         'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
         'brand': 'Cannon',
@@ -41,7 +41,7 @@ products = [
     {
         '_id': '4',
         'name': 'Sony Playstation 4 Pro White Version',
-        'image': '/images/playstation.jpg',
+        'image': '/static/images/playstation.jpg',
         'description':
         'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
         'brand': 'Sony',
@@ -54,7 +54,7 @@ products = [
     {
         '_id': '5',
         'name': 'Logitech G-Series Gaming Mouse',
-        'image': '/images/mouse.jpg',
+        'image': '/static/images/mouse.jpg',
         'description':
         'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
         'brand': 'Logitech',
@@ -67,7 +67,7 @@ products = [
     {
         '_id': '6',
         'name': 'Amazon Echo Dot 3rd Generation',
-        'image': '/images/alexa.jpg',
+        'image': '/static/images/alexa.jpg',
         'description':
         'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
         'brand': 'Amazon',
@@ -80,7 +80,7 @@ products = [
     {
         '_id': '7',
         'name': 'Samsung Galaxy Watch 4',
-        'image': '/images/watch.jpg',
+        'image': '/static/images/watch.jpg',
         'description': 'Track your fitness progress with our first smartwatch that conveniently measures body composition.',
         'brand': 'Samsung',
         'category': 'Electronics',
@@ -92,7 +92,7 @@ products = [
     {
         '_id': '8',
         'name': 'MacBook Pro 14-inch',
-        'image': '/images/macbook.jpg',
+        'image': '/static/images/macbook.jpg',
         'description': 'The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip.',
         'brand': 'Apple',
         'category': 'Electronics',
@@ -104,7 +104,7 @@ products = [
     {
         '_id': '9',
         'name': 'Bose QuietComfort 45',
-        'image': '/images/bose.jpg',
+        'image': '/static/images/bose.jpg',
         'description': 'The first noise cancelling headphones are back, with world-class quiet, lightweight materials.',
         'brand': 'Bose',
         'category': 'Electronics',
@@ -116,7 +116,7 @@ products = [
     {
         '_id': '10',
         'name': 'Nintendo Switch OLED Model',
-        'image': '/images/switch.jpg',
+        'image': '/static/images/switch.jpg',
         'description': 'Enjoy vibrant colors and crisp contrast with a screen that makes colors pop.',
         'brand': 'Nintendo',
         'category': 'Electronics',
@@ -128,7 +128,7 @@ products = [
     {
         '_id': '11',
         'name': 'iPad Air 5th Generation',
-        'image': '/images/ipad.jpg',
+        'image': '/static/images/ipad.jpg',
         'description': 'With the breakthrough M1 chip, iPad Air is a creative and gaming powerhouse.',
         'brand': 'Apple',
         'category': 'Electronics',
@@ -140,7 +140,7 @@ products = [
     {
         '_id': '12',
         'name': 'Dell XPS 13 Laptop',
-        'image': '/images/dell.jpg',
+        'image': '/static/images/dell.jpg',
         'description': 'Stunning 4-sided InfinityEdge display allows us to bring a 6.8% larger 16:10 display to the 13-inch.',
         'brand': 'Dell',
         'category': 'Electronics',
@@ -152,7 +152,7 @@ products = [
     {
         '_id': '13',
         'name': 'GoPro HERO10 Black',
-        'image': '/images/gopro.jpg',
+        'image': '/static/images/gopro.jpg',
         'description': 'All-out speed and ultimate ease, now in the most powerful GoPro ever.',
         'brand': 'GoPro',
         'category': 'Electronics',
@@ -164,7 +164,7 @@ products = [
     {
         '_id': '14',
         'name': 'Kindle Paperwhite 11th Gen',
-        'image': '/images/kindle.jpg',
+        'image': '/static/images/kindle.jpg',
         'description': 'Now with a 6.8 display and thinner borders, adjustable warm light, and up to 10 weeks of battery life.',
         'brand': 'Amazon',
         'category': 'Electronics',
@@ -176,7 +176,7 @@ products = [
     {
         '_id': '15',
         'name': 'Dyson V15 Detect Vacuum',
-        'image': '/images/dyson.jpg',
+        'image': '/static/images/dyson.jpg',
         'description': 'The most powerful, intelligent cordless vacuum. Lasers reveal microscopic dust.',
         'brand': 'Dyson',
         'category': 'Home Appliances',
@@ -188,7 +188,7 @@ products = [
     {
         '_id': '16',
         'name': 'Samsung 55-inch QLED 4K TV',
-        'image': '/images/tv.jpg',
+        'image': '/static/images/tv.jpg',
         'description': 'Experience 100% Color Volume with Quantum Dot technology for billion shades of color.',
         'brand': 'Samsung',
         'category': 'Electronics',
@@ -200,7 +200,7 @@ products = [
     {
         '_id': '17',
         'name': 'Razer BlackWidow V3 Keyboard',
-        'image': '/images/keyboard.jpg',
+        'image': '/static/images/keyboard.jpg',
         'description': 'The name that started it all returns to reassert its dominance with mechanical switches.',
         'brand': 'Razer',
         'category': 'Electronics',
@@ -212,7 +212,7 @@ products = [
     {
         '_id': '18',
         'name': 'Microsoft Surface Laptop 4',
-        'image': '/images/surface.jpg',
+        'image': '/static/images/surface.jpg',
         'description': 'Performance for multitasking, video chats, and entertainment. Slim and sleek design.',
         'brand': 'Microsoft',
         'category': 'Electronics',
@@ -224,7 +224,7 @@ products = [
     {
         '_id': '19',
         'name': 'Beats Studio3 Wireless',
-        'image': '/images/beats.jpg',
+        'image': '/static/images/beats.jpg',
         'description': 'Pure Adaptive Noise Cancelling (Pure ANC) actively blocks external noise.',
         'brand': 'Beats',
         'category': 'Electronics',
@@ -236,7 +236,7 @@ products = [
     {
         '_id': '20',
         'name': 'Fujifilm Instax Mini 11',
-        'image': '/images/instax.jpg',
+        'image': '/static/images/instax.jpg',
         'description': 'Live Life and Play. Instant photos with automatic exposure and selfie mode.',
         'brand': 'Fujifilm',
         'category': 'Electronics',
@@ -248,7 +248,7 @@ products = [
     {
         '_id': '21',
         'name': 'SteelSeries Arctis 7 Headset',
-        'image': '/images/steelseries.jpg',
+        'image': '/static/images/steelseries.jpg',
         'description': 'Lossless 2.4 GHz wireless audio designed for low latency gaming.',
         'brand': 'SteelSeries',
         'category': 'Electronics',
@@ -260,7 +260,7 @@ products = [
     {
         '_id': '22',
         'name': 'Google Pixel 6 Pro',
-        'image': '/images/pixel.jpg',
+        'image': '/static/images/pixel.jpg',
         'description': 'The smartest and fastest Pixel yet. Fully loaded with an advanced camera system.',
         'brand': 'Google',
         'category': 'Electronics',
@@ -272,7 +272,7 @@ products = [
     {
         '_id': '23',
         'name': 'ASUS ROG Swift Monitor',
-        'image': '/images/monitor.jpg',
+        'image': '/static/images/monitor.jpg',
         'description': '27-inch 4K UHD gaming monitor with an overclockable 144Hz refresh rate.',
         'brand': 'ASUS',
         'category': 'Electronics',
@@ -284,7 +284,7 @@ products = [
     {
         '_id': '24',
         'name': 'Corsair Vengeance LPX 16GB',
-        'image': '/images/ram.jpg',
+        'image': '/static/images/ram.jpg',
         'description': 'Designed for high-performance overclocking. Heat spreader made of pure aluminum.',
         'brand': 'Corsair',
         'category': 'Electronics',
@@ -296,7 +296,7 @@ products = [
     {
         '_id': '25',
         'name': 'WD Black 1TB NVMe SSD',
-        'image': '/images/ssd.jpg',
+        'image': '/static/images/ssd.jpg',
         'description': 'Next-gen PCIe Gen4 technology optimized for top-tier gaming.',
         'brand': 'WD',
         'category': 'Electronics',
@@ -308,7 +308,7 @@ products = [
     {
         '_id': '26',
         'name': 'Blue Yeti USB Microphone',
-        'image': '/images/yeti.jpg',
+        'image': '/static/images/yeti.jpg',
         'description': 'Create unparalleled recordings with your computer using Blue Best-selling Yeti family.',
         'brand': 'Blue',
         'category': 'Electronics',
@@ -320,7 +320,7 @@ products = [
     {
         '_id': '27',
         'name': 'TP-Link WiFi 6 Router',
-        'image': '/images/router.jpg',
+        'image': '/static/images/router.jpg',
         'description': 'Next-gen 1.8 Gbps speeds. Enjoy smoother streaming, gaming, and downloading.',
         'brand': 'TP-Link',
         'category': 'Electronics',
@@ -332,7 +332,7 @@ products = [
     {
         '_id': '28',
         'name': 'Anker PowerCore 26800',
-        'image': '/images/powerbank.jpg',
+        'image': '/static/images/powerbank.jpg',
         'description': 'Colossal capacity portable charger with dual input port and high-speed charging.',
         'brand': 'Anker',
         'category': 'Electronics',
@@ -344,7 +344,7 @@ products = [
     {
         '_id': '29',
         'name': 'Fitbit Charge 5',
-        'image': '/images/fitbit.jpg',
+        'image': '/static/images/fitbit.jpg',
         'description': 'Advanced fitness and health tracker with built-in GPS, stress management tools.',
         'brand': 'Fitbit',
         'category': 'Electronics',
@@ -356,7 +356,7 @@ products = [
     {
         '_id': '30',
         'name': 'JBL Flip 6 Speaker',
-        'image': '/images/jbl.jpg',
+        'image': '/static/images/jbl.jpg',
         'description': 'Eco-friendly packaging. IP67 waterproof and dustproof. 12 hours of playtime.',
         'brand': 'JBL',
         'category': 'Electronics',
