@@ -32,7 +32,7 @@ function Header() {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src={logo} alt="Otaku Shop" />
+              <img src={logo} alt="POKETO" />
             </Navbar.Brand>
           </LinkContainer>
 
