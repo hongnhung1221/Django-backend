@@ -26,16 +26,20 @@ class Command(BaseCommand):
         
 
         for p in products:
-            if not Product.objects.filter(name=p['name']).exists():
-                Product.objects.create(
-                    name=p['name'],
-                    price=p['price'],
-                    countInStock=p['countInStock'],
-                    description=p['description'] ,
-                    rating=p['rating'],
-                    image=p['image'],
-                    brand=p['brand'],
-                    category=p['category'],
-                    numReviews=p['numReviews'],
-                )
-        self.stdout.write(self.style.SUCCESS('Da import xong products tu file products.py!'))
+            obj, created = Product.objects.update_or_create(
+                name=p['name'], 
+                defaults={
+                    'price': p['price'],
+                    'countInStock': p['countInStock'],
+                    'description': p['description'],
+                    'rating': p['rating'],     
+                    'numReviews': p['numReviews'], 
+                    'image': p['image'],
+                    'brand': p['brand'],
+                    'category': p['category'],
+                }
+            )
+        if created:
+            self.stdout.write(self.style.SUCCESS(f"Da tao moi: {p['name']}"))
+        else:
+            self.stdout.write(self.style.SUCCESS(f"Da cap nhat: {p['name']}"))
